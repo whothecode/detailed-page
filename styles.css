@@ -45,26 +45,31 @@ nav ul li a:hover {
 /* Section Styling */
 .section {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Align to the left */
     align-items: center;
     height: 100vh;
-    text-align: center;
+    text-align: left; /* Left-align text */
     padding: 50px 20px;
+    width: 100%;
 }
 
 .home {
-    background-color: #2196f3;
+    background-color: #2196f3; /* Blue */
     color: white;
 }
 
 .about {
-    background-color: #ff5722;
+    background-color: #8e44ad; /* Purple, softer and more modern */
     color: white;
 }
 
 .contact {
-    background-color: #4caf50;
+    background-color: #4caf50; /* Green */
     color: white;
+}
+
+.content {
+    max-width: 800px; /* Control width for better text readability */
 }
 
 .content h1 {
@@ -74,8 +79,7 @@ nav ul li a:hover {
 
 .content p {
     font-size: 1.5em;
-    max-width: 800px;
-    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 /* Footer */
